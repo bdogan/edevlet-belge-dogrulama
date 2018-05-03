@@ -1,0 +1,22 @@
+{
+    "name": "bdogan/edevlet-belge-dogrulama",
+    "type": "library",
+    "description": "E-Devlet üzerinden alınan pdf dosyasının doğruluğunu sorgular",
+    "homepage": "http://guzzlephp.org",
+    "authors": [
+        {
+            "name": "Burak Doğan",
+            "email": "me@burak-dogan.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "~6.0",
+        "smalot/pdfparser": "^0.12.0",
+        "paquettg/php-html-parser": "^1.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "EDevlet\\": "src/"
+        }
+    }
+}
